@@ -1,0 +1,11 @@
+name: Hygiene Check
+
+on:
+  push
+
+jobs:
+  hygiene:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hygiene marker
+        run: echo "hygiene-check-ok"
